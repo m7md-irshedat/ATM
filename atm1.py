@@ -1,10 +1,10 @@
 def withdraw(balance, request):
 
     if request > balance:
-        print("Can't give you all this money !!")
+        print"Can't give you all this money !!"
 
     elif request < 0:
-        print("More than zero plz!")
+        print"More than zero plz!"
 
     else:
         balance -= request
@@ -12,7 +12,7 @@ def withdraw(balance, request):
 
             if request >= 100:
                 request -= 100
-                print("give 100")
+                print "give 100"
 
             elif request >= 50:
                 request -= 50
